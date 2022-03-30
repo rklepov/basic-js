@@ -1,4 +1,4 @@
-const { NotImplementedError } = require("../extensions/index.js");
+// recursive-depth.js
 
 /**
  * Implement class DepthCalculator with method calculateDepth
@@ -45,3 +45,5 @@ class DepthCalculator {
 module.exports = {
     DepthCalculator,
 };
+
+//__EOF__

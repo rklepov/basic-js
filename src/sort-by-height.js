@@ -1,4 +1,4 @@
-const { NotImplementedError } = require("../extensions/index.js");
+// sort-by-height.js
 
 function getAllIndexes(arr, val) {
     const indexes = [];
@@ -30,3 +30,5 @@ function sortByHeight(arr) {
 module.exports = {
     sortByHeight,
 };
+
+//__EOF__

@@ -1,4 +1,4 @@
-const { NotImplementedError } = require("../extensions/index.js");
+// encode-line.js
 
 /**
  * Given a string, return its encoding version.
@@ -22,3 +22,5 @@ function encodeLine(str) {
 module.exports = {
     encodeLine,
 };
+
+//__EOF__

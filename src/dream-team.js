@@ -1,4 +1,4 @@
-const { NotImplementedError } = require("../extensions/index.js");
+// dream-team.js
 
 /**
  * Create name of dream team based on the names of its members
@@ -31,3 +31,5 @@ function createDreamTeam(members) {
 module.exports = {
     createDreamTeam,
 };
+
+//__EOF__

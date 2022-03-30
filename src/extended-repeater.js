@@ -1,4 +1,4 @@
-const { NotImplementedError } = require("../extensions/index.js");
+// extended-repeater.js
 
 /**
  * Create a repeating string based on the given parameters
@@ -28,3 +28,5 @@ function repeater(str, options) {
 module.exports = {
     repeater,
 };
+
+//__EOF__

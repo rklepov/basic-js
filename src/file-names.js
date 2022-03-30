@@ -1,4 +1,4 @@
-const { NotImplementedError } = require("../extensions/index.js");
+// file-names.js
 
 /**
  * There's a list of file, since two files cannot have equal names,
@@ -42,3 +42,5 @@ function renameFiles(names) {
 module.exports = {
     renameFiles,
 };
+
+//__EOF__

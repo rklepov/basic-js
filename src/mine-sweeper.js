@@ -1,4 +1,4 @@
-const { NotImplementedError } = require("../extensions/index.js");
+// mine-sweeper.js
 
 /**
  * In the popular Minesweeper game you have a board with some mines and those cells
@@ -49,3 +49,5 @@ function minesweeper(matrix) {
 module.exports = {
     minesweeper,
 };
+
+//__EOF__

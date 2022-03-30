@@ -1,4 +1,4 @@
-const { NotImplementedError } = require("../extensions/index.js");
+// common-character-count.js
 
 function countChars(s) {
     const charCount = new Map();
@@ -37,3 +37,5 @@ function getCommonCharacterCount(s1, s2) {
 module.exports = {
     getCommonCharacterCount,
 };
+
+//__EOF__

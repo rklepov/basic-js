@@ -1,4 +1,4 @@
-const { NotImplementedError } = require("../extensions/index.js");
+// transform-array.js
 
 /**
  * Create transformed array based on the control sequences that original
@@ -61,3 +61,5 @@ function transform(arr) {
 module.exports = {
     transform,
 };
+
+//__EOF__

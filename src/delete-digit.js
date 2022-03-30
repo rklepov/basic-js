@@ -1,4 +1,4 @@
-const { NotImplementedError } = require("../extensions/index.js");
+// delete-digit.js
 
 /**
  * Given some integer, find the maximal number you can obtain
@@ -30,3 +30,5 @@ function deleteDigit(n) {
 module.exports = {
     deleteDigit,
 };
+
+//__EOF__

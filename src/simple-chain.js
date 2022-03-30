@@ -1,4 +1,4 @@
-const { NotImplementedError } = require("../extensions/index.js");
+// simple-chain.js
 
 /**
  * Implement chainMaker object according to task description
@@ -43,20 +43,4 @@ module.exports = {
     chainMaker,
 };
 
-console.log(
-    chainMaker
-        .reverseChain()
-        .reverseChain()
-        .reverseChain()
-        .addLink(NaN)
-        .reverseChain()
-        .addLink(null)
-        .addLink(1.233)
-        .addLink(true)
-        .addLink(false)
-        .removeLink(3)
-        .addLink(1.233)
-        .finishChain(),
-    "\n",
-    "( NaN )~~( null )~~( true )~~( false )~~( 1.233 )"
-);
+//__EOF__

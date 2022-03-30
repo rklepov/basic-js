@@ -1,4 +1,4 @@
-const { NotImplementedError } = require("../extensions/index.js");
+// what-season.js
 
 /**
  * Extract season from given date and expose the enemy scout!
@@ -35,3 +35,5 @@ function getSeason(date) {
 module.exports = {
     getSeason,
 };
+
+//__EOF__

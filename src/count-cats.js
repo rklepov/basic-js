@@ -1,4 +1,4 @@
-const { NotImplementedError } = require("../extensions/index.js");
+// count-cats.js
 
 /**
  * Given matrix where you have to find cats by ears "^^"
@@ -31,3 +31,5 @@ function countCats(matrix) {
 module.exports = {
     countCats,
 };
+
+//__EOF__
